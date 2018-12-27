@@ -1,1 +1,23 @@
 // Here you can add other styles
+.below_bosch{
+  height: 20px;
+  width: 100px;
+  background-image: "../assets/img/Bosch img/bosch_supergraphic.svg";
+}
+
+.header-bar-top{
+  background: url('assets/img/Bosch img/bosch_supergraphic.svg') no-repeat;
+    background-size: auto auto;
+    background-size: cover;
+    width: 100%;
+    height: 15px;
+}
+
+.app-header{
+  flex: 0 0 75px;
+  height: 75px;
+}
+
+.header-fixed .app-body {
+    margin-top: 75px;
+}

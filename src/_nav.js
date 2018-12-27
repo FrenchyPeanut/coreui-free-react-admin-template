@@ -4,10 +4,15 @@ export default {
       name: 'Dashboard',
       url: '/dashboard',
       icon: 'icon-speedometer',
-      badge: {
+      /*badge: {
         variant: 'info',
         text: 'NEW',
-      },
+      },*/
+    },
+    {
+      name: 'Test Page',
+      url: '/testing',
+      icon: 'icon-speedometer',
     },
     {
       title: true,
@@ -19,25 +24,27 @@ export default {
       class: ''             // optional class names space delimited list for title item ex: "text-center"
     },
     {
-      name: 'Colors',
+      name: 'Test',
       url: '/theme/colors',
       icon: 'icon-drop',
     },
+    /*
     {
       name: 'Typography',
       url: '/theme/typography',
       icon: 'icon-pencil',
-    },
+    },*/
+    ,
     {
       title: true,
-      name: 'Components',
+      name: 'Test',
       wrapper: {
         element: '',
         attributes: {},
       },
     },
     {
-      name: 'Base',
+      name: 'Test',
       url: '/base',
       icon: 'icon-puzzle',
       children: [
@@ -47,12 +54,12 @@ export default {
           icon: 'icon-puzzle',
         },
         {
-          name: 'Cards',
+          name: 'Test',
           url: '/base/cards',
           icon: 'icon-puzzle',
         },
         {
-          name: 'Carousels',
+          name: 'Test',
           url: '/base/carousels',
           icon: 'icon-puzzle',
         },
@@ -124,7 +131,7 @@ export default {
       ],
     },
     {
-      name: 'Buttons',
+      name: 'Test',
       url: '/buttons',
       icon: 'icon-cursor',
       children: [
@@ -151,12 +158,12 @@ export default {
       ],
     },
     {
-      name: 'Charts',
+      name: 'Test',
       url: '/charts',
       icon: 'icon-pie-chart',
     },
     {
-      name: 'Icons',
+      name: 'Test',
       url: '/icons',
       icon: 'icon-star',
       children: [
@@ -191,7 +198,7 @@ export default {
       ],
     },
     {
-      name: 'Notifications',
+      name: 'Test',
       url: '/notifications',
       icon: 'icon-bell',
       children: [
@@ -213,17 +220,18 @@ export default {
       ],
     },
     {
-      name: 'Widgets',
+      name: 'Test',
       url: '/widgets',
       icon: 'icon-calculator',
-      badge: {
+      /*badge: {
         variant: 'info',
         text: 'NEW',
-      },
+      },*/
     },
     {
       divider: true,
     },
+    /*
     {
       title: true,
       name: 'Extras',
@@ -260,8 +268,9 @@ export default {
       url: '/dashboard',
       icon: 'icon-ban',
       attributes: { disabled: true },
-    },
-    {
+    },*/
+
+    /*{
       name: 'Download CoreUI',
       url: 'https://coreui.io/react/',
       icon: 'icon-cloud-download',
@@ -275,6 +284,6 @@ export default {
       icon: 'icon-layers',
       variant: 'danger',
       attributes: { target: '_blank', rel: "noopener" },
-    },
+    },*/
   ],
 };

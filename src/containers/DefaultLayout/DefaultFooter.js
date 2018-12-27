@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+import bosch_banner from '../../assets/img/Bosch img/bosch_supergraphic.svg'
+
 const propTypes = {
   children: PropTypes.node,
 };
@@ -15,8 +17,11 @@ class DefaultFooter extends Component {
 
     return (
       <React.Fragment>
-        <span><a href="https://coreui.io">CoreUI</a> &copy; 2018 creativeLabs.</span>
+        {/* <div className="below_bosch"></div>*/}
+        {/* <img src={bosch_banner} alt="bosch_banner" height="20" width="null"/> */}
+        <span><a href="http://localhost:3000">Robert Bosch</a> &copy; (South East Asia) Pte Ltd.</span>
         <span className="ml-auto">Powered by <a href="https://coreui.io/react">CoreUI for React</a></span>
+
       </React.Fragment>
     );
   }
